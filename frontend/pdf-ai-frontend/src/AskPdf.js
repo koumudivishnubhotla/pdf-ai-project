@@ -12,7 +12,7 @@ function AskPdf() {
       return;
     }
 
-    const response = await fetch("http://127.0.0.1:8000/api/pdf/ask/", {
+    const response = await fetch("http://3.6.39.190:8000/api/pdf/ask/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

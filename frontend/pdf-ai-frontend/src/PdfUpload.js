@@ -13,7 +13,7 @@ function PdfUpload() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const response = await fetch("http://127.0.0.1:8000/api/pdf/upload/", {
+    const response = await fetch("http://3.6.39.190:8000/api/pdf/upload/", {
       method: "POST",
       body: formData,
     });
